@@ -1,12 +1,12 @@
 
 $(document).ready(function(){
   // --> 이게 리사이즈 보다 밑에 있음 왜 작동을 안하는지....
-  // $('.hamburger').click(function(){
-  //   $(this).toggleClass('active');
-  //   $('.main-menu').toggleClass('active');
-  //   $('.hamburger span:first-child').toggleClass('active');
-  //   $('.hamburger span:last-child').toggleClass('active');
-  // });
+  $('.hamburger').click(function(){
+    $(this).toggleClass('active');
+    $('.main-menu').toggleClass('active');
+    $('.hamburger span:first-child').toggleClass('active');
+    $('.hamburger span:last-child').toggleClass('active');
+  });
 
   $(window).scroll(function(){
 
