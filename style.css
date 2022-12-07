@@ -49,6 +49,7 @@
 
 .main-section .container{
     background-color: #f7f7f2;
+    /* background-color: #3c3c2b; */
     position: relative;
 }
 
@@ -1272,11 +1273,13 @@ footer .footer-b{
         height: 947px;
         display: block;
     }
+
+
 }
 
-@media(max-width : 375px){
+@media(max-width : 376px){
 
-    .container .video {
+    .container .video_m {
        
         width: 500px;
         height: 670px;
@@ -1289,6 +1292,27 @@ footer .footer-b{
         width: 350px;
         padding-top: 40px;
         font-size: 0.95rem;
+    }
+
+    .sec-2 .container .btn {
+        width: 150px;
+        height: 31px;
+        font-size: 0.5rem;
+        line-height: 31px;
+        border-radius: 10px;
+    }
+
+    .sec-2 .container .fixed-txt .icon-t, 
+    .sec-2 .container .fixed-txt .icon-b {
+        width: 30px;
+    }
+
+    .sec-2 .container .txt-en {
+        font-size: 1.15rem;
+    }
+
+    .sec-2 .container .txt-kr{
+        font-size: 1rem;
     }
 
     .sec-4 .canvas-wrap .inner {
