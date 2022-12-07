@@ -8,6 +8,10 @@
    display: none;
 }
 
+.main-section .container .video_m{
+    display: none;
+}
+
 /* 스크롤 내리면 active 할 로고  */
 /* .header-area .second-logo{
     display: none;
@@ -1258,10 +1262,15 @@ footer .footer-b{
     }
 
     .container .video {
+       display: none;
+    }
+
+    .main-section .container .video_m {
         position: static;
-        transform: translate(0, 0);
+        transform: translateY(0);
         width: 500px;
         height: 947px;
+        display: block;
     }
 }
 
