@@ -1281,6 +1281,23 @@ footer .footer-b{
         width: 500px;
         height: 670px;
     }
+    .sec-3 .container .fixed-center .fixed-img {
+        width: 350px;
+    }
+
+    .sec-3 .container .fixed-center .fixed-txt {
+        width: 350px;
+        padding-top: 40px;
+        font-size: 0.95rem;
+    }
+
+    .sec-4 .canvas-wrap .inner {
+        height: 300px;
+    }
+
+    .sec-4 .canvas-wrap .inner .content {
+        height: 300px;
+    }
 
 }
 
